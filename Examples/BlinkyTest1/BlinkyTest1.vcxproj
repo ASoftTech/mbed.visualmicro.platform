@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>BlinkyTest1</RootNamespace>
+    <ProjectName>BlinkyTest1</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)mbed-os;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Apps\VMicro\Micro Platforms\mbed_os_52\libraries;C:\Apps\VMicro\Micro Platforms\mbed_os_52\hardware\arm\libraries;C:\Users\richard\Documents\Arduino\libraries;D:\SourceControl\GitRepos\mbed.visualmicro.platform\Examples\BlinkyTest1;D:\SourceControl\GitRepos\mbed.visualmicro.platform\mbed.visualmicro.platform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Temp\10\Solution1\BlinkyTest1\__vm\.BlinkyTest1.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>_VMDEBUG=1;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="BlinkyTest1.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="mbed_settings.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.BlinkyTest1.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.upload.maximum_size="" arduino.upload.speed="" visualmicro.package.name="arm" arduino.board.property_bag="name=Mbed Generic&#xD;&#xA;mcu=&#xD;&#xA;runtime.ide.path=C:\Apps\VMicro\Micro Platforms\mbed_os_52&#xD;&#xA;runtime.os=windows&#xD;&#xA;build.system.path=C:\Apps\VMicro\Micro Platforms\mbed_os_52\hardware\arm\system&#xD;&#xA;runtime.ide.version=166&#xD;&#xA;target_package=arm&#xD;&#xA;target_platform=arm&#xD;&#xA;runtime.hardware.path=C:\Apps\VMicro\Micro Platforms\mbed_os_52\hardware&#xD;&#xA;originalid=arm_arm_mbedos_generic&#xD;&#xA;version=5.2.0&#xD;&#xA;compiler.path=./&#xD;&#xA;compiler.c.elf.cmd=mbed&#xD;&#xA;compiler.cpp.elf.cmd=mbed&#xD;&#xA;recipe.c.combine.pattern=&quot;{compiler.path}{compiler.c.elf.cmd}&quot; compile {build.mcu} -t GCC_ARM&quot;&#xD;&#xA;recipe.cpp.combine.pattern=&quot;{compiler.path}{compiler.cpp.elf.cmd}&quot; compile {build.mcu} -t GCC_ARM&quot;&#xD;&#xA;vm.platform.root.path=C:\Apps\VMicro\Micro Platforms\mbed_os_52&#xD;&#xA;runtime.vm.boardinfo.id=arm_arm_arm_mbedos_generic&#xD;&#xA;runtime.vm.boardinfo.name=arm_arm_arm_mbedos_generic&#xD;&#xA;runtime.vm.boardinfo.desc=Mbed Generic&#xD;&#xA;runtime.vm.boardinfo.src_location=C:\Apps\VMicro\Micro Platforms\mbed_os_52\hardware\arm&#xD;&#xA;ide.hint=Mbed OS 5.2&#xD;&#xA;ide.default.platform=arm&#xD;&#xA;ide.platformswithoutpackage=true&#xD;&#xA;ide.location.preferences=%VM_APPDATA_ROAMING%\mbed_os_52\preferences.txt&#xD;&#xA;ide.location.key=mbed_os_52&#xD;&#xA;ide.location.ide.winreg=Mbed OS 5.2 Application&#xD;&#xA;ide.location.sketchbook.winreg=Mbed OS 5.2 Sketchbook&#xD;&#xA;ide.location.sketchbook.preferences=sketchbook.path&#xD;&#xA;ide.location.sketchbook.default=%MYDOCUMENTS%\mbed_os_52&#xD;&#xA;ide.board_folders_are_platform_names=false&#xD;&#xA;ide.appid=mbed_os_52&#xD;&#xA;ide.iscustomapp=1&#xD;&#xA;location.sketchbook=C:\Users\richard\Documents\Arduino&#xD;&#xA;build.architecture=Common7&#xD;&#xA;vmresolved.compiler.path=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\&#xD;&#xA;vmresolved.tools.path=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7&#xD;&#xA;vm.core.include=wprogram.h&#xD;&#xA;build.board=ARM_ARM_ARM_ARM_MBEDOS_GENERIC&#xD;&#xA;vm.boardsource.path=C:\Apps\VMicro\Micro Platforms\mbed_os_52\hardware\arm&#xD;&#xA;runtime.platform.path=C:\Apps\VMicro\Micro Platforms\mbed_os_52\hardware\arm&#xD;&#xA;vm.platformname.name=arm&#xD;&#xA;build.arch=ARM&#xD;&#xA;" visualmicro.application.name="mbed_os_52" arduino.build.mcu="" arduino.upload.protocol="" arduino.build.f_cpu="" arduino.board.desc="Mbed Generic" arduino.board.name="arm_arm_arm_mbedos_generic" visualmicro.platform.name="arm" arduino.build.core="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
