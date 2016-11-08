@@ -1,0 +1,7 @@
+
+mbedos_generic.name=Mbed Generic
+mbedos_generic.mcu=
+
+mbedos_lpc1769.name=LPCXpresso LPC1769
+mbedos_lpc1769.mcu=-m LPC1768
+

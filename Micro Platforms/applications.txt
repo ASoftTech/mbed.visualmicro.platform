@@ -1,0 +1,36 @@
+
+# Identity
+mbed_os_52.name=Mbed OS 5.2
+mbed_os_52.ide.hint=Mbed OS 5.2
+
+# which platform directory to use by default
+mbed_os_52.ide.default.platform=arm
+
+# Used but unsure
+mbed_os_52.ide.platformswithoutpackage=true
+mbed_os_52.ide.location.preferences=%VM_APPDATA_ROAMING%\mbed_os_52\preferences.txt
+mbed_os_52.ide.location.key=mbed_os_52
+mbed_os_52.ide.location.ide.winreg=Mbed OS 5.2 Application
+mbed_os_52.ide.location.sketchbook.winreg=Mbed OS 5.2 Sketchbook
+mbed_os_52.ide.location.sketchbook.preferences=sketchbook.path
+mbed_os_52.ide.location.sketchbook.default=%MYDOCUMENTS%\mbed_os_52
+
+# If the boards are defined within a single file or multiple files seperated by directories
+mbed_os_52.ide.board_folders_are_platform_names=false
+
+# Not Found
+# mbed_os_52.ide.extension=ino
+# mbed_os_52.ide.exe=energia.exe
+# mbed_os_52.ide.url=http://energia.nu/
+# mbed_os_52.software=ARDUINO
+# mbed_os_52.ide.multiplatform=true
+# mbed_os_52.ide.default.package=arm
+
+# Unsure if needed
+# mbed_os_52.vm.debug=true
+# mbed_os_52.build.core.recursive=false
+# mbed_os_52.build.core.more_folders={build.core.vmresolved}\avr
+# mbed_os_52.runtime.ide.version=101
+# mbed_os_52.runtime.energia.version=17
+# mbed_os_52.build.working_directory={vmresolved.compiler.path}
+
