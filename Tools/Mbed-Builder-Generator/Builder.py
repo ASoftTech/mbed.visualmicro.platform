@@ -28,12 +28,12 @@ class Builder(object):
         txt += "# Used for custom targets\n"
         txt += "# where we need to set the target board as part of the local mbed config\n"
         txt += "mbed_os_generic.name=Mbed Generic\n"
-        txt += "mbed_os_generic.mcu=\n\n"
+        txt += "mbed_os_generic.build.mcu=\n\n"
         
         for item in list1:
             boardname = "mbed_os_" + item.lower()
-            txt += boardname + "." + "name=" + item + "\n"
-            txt += boardname + "." + "mcu=-m " + item + "\n\n"
+            txt += boardname + ".name=" + item + "\n"
+            txt += boardname + ".build.mcu=-m " + item + "\n\n"
 
         with open("boards.txt", 'w') as f:
             f.write(txt)

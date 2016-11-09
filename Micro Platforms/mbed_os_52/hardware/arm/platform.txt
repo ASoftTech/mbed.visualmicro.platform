@@ -4,51 +4,26 @@
 #
 # For more info:
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
+# http://www.visualmicro.com/page/Arduino-Build-Events-and-Hooks.aspx
 
 name=Mbed OS ARM Boards
 version=5.2.0
 
+# This is just needed to avoid a warning box when reloading the toolchain / Building
+compiler.path=./
+
 # Mbed compile variables
 # ----------------------
 
-compiler.path=./
-compiler.c.cmd=
-compiler.c.flags=
-compiler.c.elf.flags=
-compiler.c.elf.cmd=mbed
-compiler.S.flags=
-compiler.cpp.cmd=mbed
-compiler.cpp.flags=
-compiler.cpp.elf.cmd=mbed
-compiler.ar.cmd=msp430-ar
-compiler.ar.flags=rcs
-compiler.objcopy.cmd=
-compiler.objcopy.eep.flags=
-compiler.elf2hex.flags=
-compiler.elf2hex.cmd=
-compiler.ldflags=
-compiler.size.cmd=
+# This can be set to GCC_ARM, ARM or IAR
+# If ommited then the setting from the local or global config will be used instead
+compiler.type=-t GCC_ARM
+
+# this can be overriden in boards.txt
+build.extra_flags=
 
 # Mbed compile patterns
 # ---------------------
 
-## Compile c files
-recipe.c.o.pattern=""
-
-## Compile c++ files
-recipe.cpp.o.pattern=""
-
-## Create archives
-recipe.ar.pattern=""
-
-## Link c files
-recipe.c.combine.pattern="{compiler.path}{compiler.c.elf.cmd}" compile {build.mcu} -t GCC_ARM"
-
-## Link c++ files
-recipe.cpp.combine.pattern="{compiler.path}{compiler.cpp.elf.cmd}" compile {build.mcu} -t GCC_ARM"
-
-## Create hex
-recipe.objcopy.hex.pattern=""
-
-## Compute size
-recipe.size.pattern=""
+recipe.hooks.custombuild.pattern=mbed compile {build.mcu} {compiler.type} {build.extra_flags}
+recipe.hooks.custombuild.working_directory={sketch_path}

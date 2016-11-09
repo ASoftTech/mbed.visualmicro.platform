@@ -2,206 +2,206 @@
 # Used for custom targets
 # where we need to set the target board as part of the local mbed config
 mbed_os_generic.name=Mbed Generic
-mbed_os_generic.mcu=
+mbed_os_generic.build.mcu=
 
 mbed_os_arch_pro.name=ARCH_PRO
-mbed_os_arch_pro.mcu=-m ARCH_PRO
+mbed_os_arch_pro.build.mcu=-m ARCH_PRO
 
 mbed_os_arm_beetle_soc.name=ARM_BEETLE_SOC
-mbed_os_arm_beetle_soc.mcu=-m ARM_BEETLE_SOC
+mbed_os_arm_beetle_soc.build.mcu=-m ARM_BEETLE_SOC
 
 mbed_os_b96b_f446ve.name=B96B_F446VE
-mbed_os_b96b_f446ve.mcu=-m B96B_F446VE
+mbed_os_b96b_f446ve.build.mcu=-m B96B_F446VE
 
 mbed_os_delta_dfbm_nq620.name=DELTA_DFBM_NQ620
-mbed_os_delta_dfbm_nq620.mcu=-m DELTA_DFBM_NQ620
+mbed_os_delta_dfbm_nq620.build.mcu=-m DELTA_DFBM_NQ620
 
 mbed_os_disco_f429zi.name=DISCO_F429ZI
-mbed_os_disco_f429zi.mcu=-m DISCO_F429ZI
+mbed_os_disco_f429zi.build.mcu=-m DISCO_F429ZI
 
 mbed_os_disco_f469ni.name=DISCO_F469NI
-mbed_os_disco_f469ni.mcu=-m DISCO_F469NI
+mbed_os_disco_f469ni.build.mcu=-m DISCO_F469NI
 
 mbed_os_disco_f746ng.name=DISCO_F746NG
-mbed_os_disco_f746ng.mcu=-m DISCO_F746NG
+mbed_os_disco_f746ng.build.mcu=-m DISCO_F746NG
 
 mbed_os_disco_l476vg.name=DISCO_L476VG
-mbed_os_disco_l476vg.mcu=-m DISCO_L476VG
+mbed_os_disco_l476vg.build.mcu=-m DISCO_L476VG
 
 mbed_os_efm32gg_stk3700.name=EFM32GG_STK3700
-mbed_os_efm32gg_stk3700.mcu=-m EFM32GG_STK3700
+mbed_os_efm32gg_stk3700.build.mcu=-m EFM32GG_STK3700
 
 mbed_os_efm32lg_stk3600.name=EFM32LG_STK3600
-mbed_os_efm32lg_stk3600.mcu=-m EFM32LG_STK3600
+mbed_os_efm32lg_stk3600.build.mcu=-m EFM32LG_STK3600
 
 mbed_os_efm32pg_stk3401.name=EFM32PG_STK3401
-mbed_os_efm32pg_stk3401.mcu=-m EFM32PG_STK3401
+mbed_os_efm32pg_stk3401.build.mcu=-m EFM32PG_STK3401
 
 mbed_os_efm32wg_stk3800.name=EFM32WG_STK3800
-mbed_os_efm32wg_stk3800.mcu=-m EFM32WG_STK3800
+mbed_os_efm32wg_stk3800.build.mcu=-m EFM32WG_STK3800
 
 mbed_os_hexiwear.name=HEXIWEAR
-mbed_os_hexiwear.mcu=-m HEXIWEAR
+mbed_os_hexiwear.build.mcu=-m HEXIWEAR
 
 mbed_os_k22f.name=K22F
-mbed_os_k22f.mcu=-m K22F
+mbed_os_k22f.build.mcu=-m K22F
 
 mbed_os_k64f.name=K64F
-mbed_os_k64f.mcu=-m K64F
+mbed_os_k64f.build.mcu=-m K64F
 
 mbed_os_k66f.name=K66F
-mbed_os_k66f.mcu=-m K66F
+mbed_os_k66f.build.mcu=-m K66F
 
 mbed_os_k82f.name=K82F
-mbed_os_k82f.mcu=-m K82F
+mbed_os_k82f.build.mcu=-m K82F
 
 mbed_os_kl25z.name=KL25Z
-mbed_os_kl25z.mcu=-m KL25Z
+mbed_os_kl25z.build.mcu=-m KL25Z
 
 mbed_os_kl43z.name=KL43Z
-mbed_os_kl43z.mcu=-m KL43Z
+mbed_os_kl43z.build.mcu=-m KL43Z
 
 mbed_os_kl46z.name=KL46Z
-mbed_os_kl46z.mcu=-m KL46Z
+mbed_os_kl46z.build.mcu=-m KL46Z
 
 mbed_os_kl82z.name=KL82Z
-mbed_os_kl82z.mcu=-m KL82Z
+mbed_os_kl82z.build.mcu=-m KL82Z
 
 mbed_os_kw24d.name=KW24D
-mbed_os_kw24d.mcu=-m KW24D
+mbed_os_kw24d.build.mcu=-m KW24D
 
 mbed_os_lpc1768.name=LPC1768
-mbed_os_lpc1768.mcu=-m LPC1768
+mbed_os_lpc1768.build.mcu=-m LPC1768
 
 mbed_os_lpc4088.name=LPC4088
-mbed_os_lpc4088.mcu=-m LPC4088
+mbed_os_lpc4088.build.mcu=-m LPC4088
 
 mbed_os_lpc4088_dm.name=LPC4088_DM
-mbed_os_lpc4088_dm.mcu=-m LPC4088_DM
+mbed_os_lpc4088_dm.build.mcu=-m LPC4088_DM
 
 mbed_os_max32600mbed.name=MAX32600MBED
-mbed_os_max32600mbed.mcu=-m MAX32600MBED
+mbed_os_max32600mbed.build.mcu=-m MAX32600MBED
 
 mbed_os_max32620hsp.name=MAX32620HSP
-mbed_os_max32620hsp.mcu=-m MAX32620HSP
+mbed_os_max32620hsp.build.mcu=-m MAX32620HSP
 
 mbed_os_max32625mbed.name=MAX32625MBED
-mbed_os_max32625mbed.mcu=-m MAX32625MBED
+mbed_os_max32625mbed.build.mcu=-m MAX32625MBED
 
 mbed_os_max32625nexpaq.name=MAX32625NEXPAQ
-mbed_os_max32625nexpaq.mcu=-m MAX32625NEXPAQ
+mbed_os_max32625nexpaq.build.mcu=-m MAX32625NEXPAQ
 
 mbed_os_maxwsnenv.name=MAXWSNENV
-mbed_os_maxwsnenv.mcu=-m MAXWSNENV
+mbed_os_maxwsnenv.build.mcu=-m MAXWSNENV
 
 mbed_os_mts_dragonfly_f411re.name=MTS_DRAGONFLY_F411RE
-mbed_os_mts_dragonfly_f411re.mcu=-m MTS_DRAGONFLY_F411RE
+mbed_os_mts_dragonfly_f411re.build.mcu=-m MTS_DRAGONFLY_F411RE
 
 mbed_os_mts_mdot_f411re.name=MTS_MDOT_F411RE
-mbed_os_mts_mdot_f411re.mcu=-m MTS_MDOT_F411RE
+mbed_os_mts_mdot_f411re.build.mcu=-m MTS_MDOT_F411RE
 
 mbed_os_ncs36510.name=NCS36510
-mbed_os_ncs36510.mcu=-m NCS36510
+mbed_os_ncs36510.build.mcu=-m NCS36510
 
 mbed_os_nrf51_dk.name=NRF51_DK
-mbed_os_nrf51_dk.mcu=-m NRF51_DK
+mbed_os_nrf51_dk.build.mcu=-m NRF51_DK
 
 mbed_os_nrf51_dongle.name=NRF51_DONGLE
-mbed_os_nrf51_dongle.mcu=-m NRF51_DONGLE
+mbed_os_nrf51_dongle.build.mcu=-m NRF51_DONGLE
 
 mbed_os_nrf52_dk.name=NRF52_DK
-mbed_os_nrf52_dk.mcu=-m NRF52_DK
+mbed_os_nrf52_dk.build.mcu=-m NRF52_DK
 
 mbed_os_nucleo_f070rb.name=NUCLEO_F070RB
-mbed_os_nucleo_f070rb.mcu=-m NUCLEO_F070RB
+mbed_os_nucleo_f070rb.build.mcu=-m NUCLEO_F070RB
 
 mbed_os_nucleo_f072rb.name=NUCLEO_F072RB
-mbed_os_nucleo_f072rb.mcu=-m NUCLEO_F072RB
+mbed_os_nucleo_f072rb.build.mcu=-m NUCLEO_F072RB
 
 mbed_os_nucleo_f091rc.name=NUCLEO_F091RC
-mbed_os_nucleo_f091rc.mcu=-m NUCLEO_F091RC
+mbed_os_nucleo_f091rc.build.mcu=-m NUCLEO_F091RC
 
 mbed_os_nucleo_f103rb.name=NUCLEO_F103RB
-mbed_os_nucleo_f103rb.mcu=-m NUCLEO_F103RB
+mbed_os_nucleo_f103rb.build.mcu=-m NUCLEO_F103RB
 
 mbed_os_nucleo_f207zg.name=NUCLEO_F207ZG
-mbed_os_nucleo_f207zg.mcu=-m NUCLEO_F207ZG
+mbed_os_nucleo_f207zg.build.mcu=-m NUCLEO_F207ZG
 
 mbed_os_nucleo_f303re.name=NUCLEO_F303RE
-mbed_os_nucleo_f303re.mcu=-m NUCLEO_F303RE
+mbed_os_nucleo_f303re.build.mcu=-m NUCLEO_F303RE
 
 mbed_os_nucleo_f303ze.name=NUCLEO_F303ZE
-mbed_os_nucleo_f303ze.mcu=-m NUCLEO_F303ZE
+mbed_os_nucleo_f303ze.build.mcu=-m NUCLEO_F303ZE
 
 mbed_os_nucleo_f401re.name=NUCLEO_F401RE
-mbed_os_nucleo_f401re.mcu=-m NUCLEO_F401RE
+mbed_os_nucleo_f401re.build.mcu=-m NUCLEO_F401RE
 
 mbed_os_nucleo_f410rb.name=NUCLEO_F410RB
-mbed_os_nucleo_f410rb.mcu=-m NUCLEO_F410RB
+mbed_os_nucleo_f410rb.build.mcu=-m NUCLEO_F410RB
 
 mbed_os_nucleo_f411re.name=NUCLEO_F411RE
-mbed_os_nucleo_f411re.mcu=-m NUCLEO_F411RE
+mbed_os_nucleo_f411re.build.mcu=-m NUCLEO_F411RE
 
 mbed_os_nucleo_f429zi.name=NUCLEO_F429ZI
-mbed_os_nucleo_f429zi.mcu=-m NUCLEO_F429ZI
+mbed_os_nucleo_f429zi.build.mcu=-m NUCLEO_F429ZI
 
 mbed_os_nucleo_f439zi.name=NUCLEO_F439ZI
-mbed_os_nucleo_f439zi.mcu=-m NUCLEO_F439ZI
+mbed_os_nucleo_f439zi.build.mcu=-m NUCLEO_F439ZI
 
 mbed_os_nucleo_f446re.name=NUCLEO_F446RE
-mbed_os_nucleo_f446re.mcu=-m NUCLEO_F446RE
+mbed_os_nucleo_f446re.build.mcu=-m NUCLEO_F446RE
 
 mbed_os_nucleo_f446ze.name=NUCLEO_F446ZE
-mbed_os_nucleo_f446ze.mcu=-m NUCLEO_F446ZE
+mbed_os_nucleo_f446ze.build.mcu=-m NUCLEO_F446ZE
 
 mbed_os_nucleo_f746zg.name=NUCLEO_F746ZG
-mbed_os_nucleo_f746zg.mcu=-m NUCLEO_F746ZG
+mbed_os_nucleo_f746zg.build.mcu=-m NUCLEO_F746ZG
 
 mbed_os_nucleo_f756zg.name=NUCLEO_F756ZG
-mbed_os_nucleo_f756zg.mcu=-m NUCLEO_F756ZG
+mbed_os_nucleo_f756zg.build.mcu=-m NUCLEO_F756ZG
 
 mbed_os_nucleo_f767zi.name=NUCLEO_F767ZI
-mbed_os_nucleo_f767zi.mcu=-m NUCLEO_F767ZI
+mbed_os_nucleo_f767zi.build.mcu=-m NUCLEO_F767ZI
 
 mbed_os_nucleo_l073rz.name=NUCLEO_L073RZ
-mbed_os_nucleo_l073rz.mcu=-m NUCLEO_L073RZ
+mbed_os_nucleo_l073rz.build.mcu=-m NUCLEO_L073RZ
 
 mbed_os_nucleo_l152re.name=NUCLEO_L152RE
-mbed_os_nucleo_l152re.mcu=-m NUCLEO_L152RE
+mbed_os_nucleo_l152re.build.mcu=-m NUCLEO_L152RE
 
 mbed_os_nucleo_l432kc.name=NUCLEO_L432KC
-mbed_os_nucleo_l432kc.mcu=-m NUCLEO_L432KC
+mbed_os_nucleo_l432kc.build.mcu=-m NUCLEO_L432KC
 
 mbed_os_nucleo_l476rg.name=NUCLEO_L476RG
-mbed_os_nucleo_l476rg.mcu=-m NUCLEO_L476RG
+mbed_os_nucleo_l476rg.build.mcu=-m NUCLEO_L476RG
 
 mbed_os_nucleo_l486rg.name=NUCLEO_L486RG
-mbed_os_nucleo_l486rg.mcu=-m NUCLEO_L486RG
+mbed_os_nucleo_l486rg.build.mcu=-m NUCLEO_L486RG
 
 mbed_os_numaker_pfm_m453.name=NUMAKER_PFM_M453
-mbed_os_numaker_pfm_m453.mcu=-m NUMAKER_PFM_M453
+mbed_os_numaker_pfm_m453.build.mcu=-m NUMAKER_PFM_M453
 
 mbed_os_numaker_pfm_nuc472.name=NUMAKER_PFM_NUC472
-mbed_os_numaker_pfm_nuc472.mcu=-m NUMAKER_PFM_NUC472
+mbed_os_numaker_pfm_nuc472.build.mcu=-m NUMAKER_PFM_NUC472
 
 mbed_os_rz_a1h.name=RZ_A1H
-mbed_os_rz_a1h.mcu=-m RZ_A1H
+mbed_os_rz_a1h.build.mcu=-m RZ_A1H
 
 mbed_os_sara_nbiot_evk.name=SARA_NBIOT_EVK
-mbed_os_sara_nbiot_evk.mcu=-m SARA_NBIOT_EVK
+mbed_os_sara_nbiot_evk.build.mcu=-m SARA_NBIOT_EVK
 
 mbed_os_ty51822r3.name=TY51822R3
-mbed_os_ty51822r3.mcu=-m TY51822R3
+mbed_os_ty51822r3.build.mcu=-m TY51822R3
 
 mbed_os_ublox_c027.name=UBLOX_C027
-mbed_os_ublox_c027.mcu=-m UBLOX_C027
+mbed_os_ublox_c027.build.mcu=-m UBLOX_C027
 
 mbed_os_ublox_evk_odin_w2.name=UBLOX_EVK_ODIN_W2
-mbed_os_ublox_evk_odin_w2.mcu=-m UBLOX_EVK_ODIN_W2
+mbed_os_ublox_evk_odin_w2.build.mcu=-m UBLOX_EVK_ODIN_W2
 
 mbed_os_vk_rz_a1h.name=VK_RZ_A1H
-mbed_os_vk_rz_a1h.mcu=-m VK_RZ_A1H
+mbed_os_vk_rz_a1h.build.mcu=-m VK_RZ_A1H
 
 mbed_os_xdot_l151cc.name=XDOT_L151CC
-mbed_os_xdot_l151cc.mcu=-m XDOT_L151CC
+mbed_os_xdot_l151cc.build.mcu=-m XDOT_L151CC
 
