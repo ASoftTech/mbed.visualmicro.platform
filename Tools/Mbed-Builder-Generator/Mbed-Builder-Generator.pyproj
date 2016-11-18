@@ -26,9 +26,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Builder.py" />
+    <Compile Include="pybuild\Helper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pybuild\Targets.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pybuild\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pybuild\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

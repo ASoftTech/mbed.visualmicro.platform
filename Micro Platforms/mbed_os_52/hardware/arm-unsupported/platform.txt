@@ -1,0 +1,61 @@
+
+# Mbed-OS ARM platform.
+# ------------------------------
+#
+# For more info:
+# https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
+# http://www.visualmicro.com/page/Arduino-Build-Events-and-Hooks.aspx
+
+name=Mbed OS Unsupported Boards
+version=5.2.0
+
+# This is just needed to avoid a warning box when reloading the toolchain / Building
+compiler.path=./
+
+
+# Mbed compile variables
+# ----------------------
+
+# This can be set to GCC_ARM, ARM or IAR
+# If ommited then the setting from the local or global config will be used instead
+compiler.type=-t GCC_ARM
+
+# this can be overriden in boards.txt
+build.extra_flags=
+
+# Set the path to the mbed application configuration
+build.appconfig=--app-config .\configs\appconfig.json
+
+# Configs for OpenOCD for debugging / uploading
+build.gdbconfig={sketch_path}/configs/gdb.cfg
+build.uploadconfig={sketch_path}/configs/upload.cfg
+
+
+# Mbed compile patterns
+# ---------------------
+
+recipe.hooks.custombuild.pattern=mbed compile {build.mcu} {compiler.type} {build.appconfig} {build.extra_flags}
+recipe.hooks.custombuild.working_directory={sketch_path}
+
+
+# Openocd tool for upload
+# TODO add in {build.uploadconfig} / test
+
+tools.openocd.path={runtime.tools.openocd-0.9.0-arduino.path}
+tools.openocd.cmd=bin/openocd
+tools.openocd.cmd.windows=bin/openocd.exe
+
+
+# Gdb Tool for debugging
+# TODO add in {build.gdbconfig} / test
+
+tools.gdb.pre_init.tool=openocd
+tools.gdb.cmd=arm­none­eabi­gdb.exe
+tools.gdb.path={runtime.tools.arm­none­eabi­gcc.path}/bin
+tools.gdb.pattern="{path}/{cmd}" ­interpreter=mi ­d "{build.project_path}"
+tools.gdb.tcp=localhost:3333
+tools.gdb.openocd.cmd=bin/openocd.exe
+tools.gdb.openocd.path={runtime.vm.ide.platforms.path}/default/tools/openocd­0.9.0
+tools.gdb.openocd.params.verbose=­d2
+tools.gdb.openocd.params.quiet=­d0
+tools.gdb.openocd.pattern="{path}/{cmd}" ­-f "{path}\scripts\interface\stlink-v2.cfg" s "{path}/scripts/" ­f "{path}/scripts/{build.openocdscript}"

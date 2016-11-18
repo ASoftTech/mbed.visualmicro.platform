@@ -1,0 +1,342 @@
+# Used for custom targets
+# where we need to set the target board as part of the local mbed config
+mbed_os_supp_generic.name=Mbed Generic
+mbed_os_supp_generic.build.mcu=
+mbed_os_supp_generic.upload.tool=openocd
+mbed_os_supp_generic.debug.tool=gdb
+
+mbed_os_supp_arch_pro.name=ARCH_PRO
+mbed_os_supp_arch_pro.build.mcu=-m ARCH_PRO
+mbed_os_supp_arch_pro.upload.tool=openocd
+mbed_os_supp_arch_pro.debug.tool=gdb
+
+mbed_os_supp_arm_beetle_soc.name=ARM_BEETLE_SOC
+mbed_os_supp_arm_beetle_soc.build.mcu=-m ARM_BEETLE_SOC
+mbed_os_supp_arm_beetle_soc.upload.tool=openocd
+mbed_os_supp_arm_beetle_soc.debug.tool=gdb
+
+mbed_os_supp_b96b_f446ve.name=B96B_F446VE
+mbed_os_supp_b96b_f446ve.build.mcu=-m B96B_F446VE
+mbed_os_supp_b96b_f446ve.upload.tool=openocd
+mbed_os_supp_b96b_f446ve.debug.tool=gdb
+
+mbed_os_supp_delta_dfbm_nq620.name=DELTA_DFBM_NQ620
+mbed_os_supp_delta_dfbm_nq620.build.mcu=-m DELTA_DFBM_NQ620
+mbed_os_supp_delta_dfbm_nq620.upload.tool=openocd
+mbed_os_supp_delta_dfbm_nq620.debug.tool=gdb
+
+mbed_os_supp_disco_f429zi.name=DISCO_F429ZI
+mbed_os_supp_disco_f429zi.build.mcu=-m DISCO_F429ZI
+mbed_os_supp_disco_f429zi.upload.tool=openocd
+mbed_os_supp_disco_f429zi.debug.tool=gdb
+
+mbed_os_supp_disco_f469ni.name=DISCO_F469NI
+mbed_os_supp_disco_f469ni.build.mcu=-m DISCO_F469NI
+mbed_os_supp_disco_f469ni.upload.tool=openocd
+mbed_os_supp_disco_f469ni.debug.tool=gdb
+
+mbed_os_supp_disco_f746ng.name=DISCO_F746NG
+mbed_os_supp_disco_f746ng.build.mcu=-m DISCO_F746NG
+mbed_os_supp_disco_f746ng.upload.tool=openocd
+mbed_os_supp_disco_f746ng.debug.tool=gdb
+
+mbed_os_supp_disco_l476vg.name=DISCO_L476VG
+mbed_os_supp_disco_l476vg.build.mcu=-m DISCO_L476VG
+mbed_os_supp_disco_l476vg.upload.tool=openocd
+mbed_os_supp_disco_l476vg.debug.tool=gdb
+
+mbed_os_supp_efm32gg_stk3700.name=EFM32GG_STK3700
+mbed_os_supp_efm32gg_stk3700.build.mcu=-m EFM32GG_STK3700
+mbed_os_supp_efm32gg_stk3700.upload.tool=openocd
+mbed_os_supp_efm32gg_stk3700.debug.tool=gdb
+
+mbed_os_supp_efm32lg_stk3600.name=EFM32LG_STK3600
+mbed_os_supp_efm32lg_stk3600.build.mcu=-m EFM32LG_STK3600
+mbed_os_supp_efm32lg_stk3600.upload.tool=openocd
+mbed_os_supp_efm32lg_stk3600.debug.tool=gdb
+
+mbed_os_supp_efm32pg_stk3401.name=EFM32PG_STK3401
+mbed_os_supp_efm32pg_stk3401.build.mcu=-m EFM32PG_STK3401
+mbed_os_supp_efm32pg_stk3401.upload.tool=openocd
+mbed_os_supp_efm32pg_stk3401.debug.tool=gdb
+
+mbed_os_supp_efm32wg_stk3800.name=EFM32WG_STK3800
+mbed_os_supp_efm32wg_stk3800.build.mcu=-m EFM32WG_STK3800
+mbed_os_supp_efm32wg_stk3800.upload.tool=openocd
+mbed_os_supp_efm32wg_stk3800.debug.tool=gdb
+
+mbed_os_supp_hexiwear.name=HEXIWEAR
+mbed_os_supp_hexiwear.build.mcu=-m HEXIWEAR
+mbed_os_supp_hexiwear.upload.tool=openocd
+mbed_os_supp_hexiwear.debug.tool=gdb
+
+mbed_os_supp_k22f.name=K22F
+mbed_os_supp_k22f.build.mcu=-m K22F
+mbed_os_supp_k22f.upload.tool=openocd
+mbed_os_supp_k22f.debug.tool=gdb
+
+mbed_os_supp_k64f.name=K64F
+mbed_os_supp_k64f.build.mcu=-m K64F
+mbed_os_supp_k64f.upload.tool=openocd
+mbed_os_supp_k64f.debug.tool=gdb
+
+mbed_os_supp_k66f.name=K66F
+mbed_os_supp_k66f.build.mcu=-m K66F
+mbed_os_supp_k66f.upload.tool=openocd
+mbed_os_supp_k66f.debug.tool=gdb
+
+mbed_os_supp_k82f.name=K82F
+mbed_os_supp_k82f.build.mcu=-m K82F
+mbed_os_supp_k82f.upload.tool=openocd
+mbed_os_supp_k82f.debug.tool=gdb
+
+mbed_os_supp_kl25z.name=KL25Z
+mbed_os_supp_kl25z.build.mcu=-m KL25Z
+mbed_os_supp_kl25z.upload.tool=openocd
+mbed_os_supp_kl25z.debug.tool=gdb
+
+mbed_os_supp_kl43z.name=KL43Z
+mbed_os_supp_kl43z.build.mcu=-m KL43Z
+mbed_os_supp_kl43z.upload.tool=openocd
+mbed_os_supp_kl43z.debug.tool=gdb
+
+mbed_os_supp_kl46z.name=KL46Z
+mbed_os_supp_kl46z.build.mcu=-m KL46Z
+mbed_os_supp_kl46z.upload.tool=openocd
+mbed_os_supp_kl46z.debug.tool=gdb
+
+mbed_os_supp_kl82z.name=KL82Z
+mbed_os_supp_kl82z.build.mcu=-m KL82Z
+mbed_os_supp_kl82z.upload.tool=openocd
+mbed_os_supp_kl82z.debug.tool=gdb
+
+mbed_os_supp_kw24d.name=KW24D
+mbed_os_supp_kw24d.build.mcu=-m KW24D
+mbed_os_supp_kw24d.upload.tool=openocd
+mbed_os_supp_kw24d.debug.tool=gdb
+
+mbed_os_supp_lpc1768.name=LPC1768
+mbed_os_supp_lpc1768.build.mcu=-m LPC1768
+mbed_os_supp_lpc1768.upload.tool=openocd
+mbed_os_supp_lpc1768.debug.tool=gdb
+
+mbed_os_supp_lpc4088.name=LPC4088
+mbed_os_supp_lpc4088.build.mcu=-m LPC4088
+mbed_os_supp_lpc4088.upload.tool=openocd
+mbed_os_supp_lpc4088.debug.tool=gdb
+
+mbed_os_supp_lpc4088_dm.name=LPC4088_DM
+mbed_os_supp_lpc4088_dm.build.mcu=-m LPC4088_DM
+mbed_os_supp_lpc4088_dm.upload.tool=openocd
+mbed_os_supp_lpc4088_dm.debug.tool=gdb
+
+mbed_os_supp_max32600mbed.name=MAX32600MBED
+mbed_os_supp_max32600mbed.build.mcu=-m MAX32600MBED
+mbed_os_supp_max32600mbed.upload.tool=openocd
+mbed_os_supp_max32600mbed.debug.tool=gdb
+
+mbed_os_supp_max32620hsp.name=MAX32620HSP
+mbed_os_supp_max32620hsp.build.mcu=-m MAX32620HSP
+mbed_os_supp_max32620hsp.upload.tool=openocd
+mbed_os_supp_max32620hsp.debug.tool=gdb
+
+mbed_os_supp_max32625mbed.name=MAX32625MBED
+mbed_os_supp_max32625mbed.build.mcu=-m MAX32625MBED
+mbed_os_supp_max32625mbed.upload.tool=openocd
+mbed_os_supp_max32625mbed.debug.tool=gdb
+
+mbed_os_supp_max32625nexpaq.name=MAX32625NEXPAQ
+mbed_os_supp_max32625nexpaq.build.mcu=-m MAX32625NEXPAQ
+mbed_os_supp_max32625nexpaq.upload.tool=openocd
+mbed_os_supp_max32625nexpaq.debug.tool=gdb
+
+mbed_os_supp_maxwsnenv.name=MAXWSNENV
+mbed_os_supp_maxwsnenv.build.mcu=-m MAXWSNENV
+mbed_os_supp_maxwsnenv.upload.tool=openocd
+mbed_os_supp_maxwsnenv.debug.tool=gdb
+
+mbed_os_supp_mts_dragonfly_f411re.name=MTS_DRAGONFLY_F411RE
+mbed_os_supp_mts_dragonfly_f411re.build.mcu=-m MTS_DRAGONFLY_F411RE
+mbed_os_supp_mts_dragonfly_f411re.upload.tool=openocd
+mbed_os_supp_mts_dragonfly_f411re.debug.tool=gdb
+
+mbed_os_supp_mts_mdot_f411re.name=MTS_MDOT_F411RE
+mbed_os_supp_mts_mdot_f411re.build.mcu=-m MTS_MDOT_F411RE
+mbed_os_supp_mts_mdot_f411re.upload.tool=openocd
+mbed_os_supp_mts_mdot_f411re.debug.tool=gdb
+
+mbed_os_supp_ncs36510.name=NCS36510
+mbed_os_supp_ncs36510.build.mcu=-m NCS36510
+mbed_os_supp_ncs36510.upload.tool=openocd
+mbed_os_supp_ncs36510.debug.tool=gdb
+
+mbed_os_supp_nrf51_dk.name=NRF51_DK
+mbed_os_supp_nrf51_dk.build.mcu=-m NRF51_DK
+mbed_os_supp_nrf51_dk.upload.tool=openocd
+mbed_os_supp_nrf51_dk.debug.tool=gdb
+
+mbed_os_supp_nrf51_dongle.name=NRF51_DONGLE
+mbed_os_supp_nrf51_dongle.build.mcu=-m NRF51_DONGLE
+mbed_os_supp_nrf51_dongle.upload.tool=openocd
+mbed_os_supp_nrf51_dongle.debug.tool=gdb
+
+mbed_os_supp_nrf52_dk.name=NRF52_DK
+mbed_os_supp_nrf52_dk.build.mcu=-m NRF52_DK
+mbed_os_supp_nrf52_dk.upload.tool=openocd
+mbed_os_supp_nrf52_dk.debug.tool=gdb
+
+mbed_os_supp_nucleo_f070rb.name=NUCLEO_F070RB
+mbed_os_supp_nucleo_f070rb.build.mcu=-m NUCLEO_F070RB
+mbed_os_supp_nucleo_f070rb.upload.tool=openocd
+mbed_os_supp_nucleo_f070rb.debug.tool=gdb
+
+mbed_os_supp_nucleo_f072rb.name=NUCLEO_F072RB
+mbed_os_supp_nucleo_f072rb.build.mcu=-m NUCLEO_F072RB
+mbed_os_supp_nucleo_f072rb.upload.tool=openocd
+mbed_os_supp_nucleo_f072rb.debug.tool=gdb
+
+mbed_os_supp_nucleo_f091rc.name=NUCLEO_F091RC
+mbed_os_supp_nucleo_f091rc.build.mcu=-m NUCLEO_F091RC
+mbed_os_supp_nucleo_f091rc.upload.tool=openocd
+mbed_os_supp_nucleo_f091rc.debug.tool=gdb
+
+mbed_os_supp_nucleo_f103rb.name=NUCLEO_F103RB
+mbed_os_supp_nucleo_f103rb.build.mcu=-m NUCLEO_F103RB
+mbed_os_supp_nucleo_f103rb.upload.tool=openocd
+mbed_os_supp_nucleo_f103rb.debug.tool=gdb
+
+mbed_os_supp_nucleo_f207zg.name=NUCLEO_F207ZG
+mbed_os_supp_nucleo_f207zg.build.mcu=-m NUCLEO_F207ZG
+mbed_os_supp_nucleo_f207zg.upload.tool=openocd
+mbed_os_supp_nucleo_f207zg.debug.tool=gdb
+
+mbed_os_supp_nucleo_f303re.name=NUCLEO_F303RE
+mbed_os_supp_nucleo_f303re.build.mcu=-m NUCLEO_F303RE
+mbed_os_supp_nucleo_f303re.upload.tool=openocd
+mbed_os_supp_nucleo_f303re.debug.tool=gdb
+
+mbed_os_supp_nucleo_f303ze.name=NUCLEO_F303ZE
+mbed_os_supp_nucleo_f303ze.build.mcu=-m NUCLEO_F303ZE
+mbed_os_supp_nucleo_f303ze.upload.tool=openocd
+mbed_os_supp_nucleo_f303ze.debug.tool=gdb
+
+mbed_os_supp_nucleo_f401re.name=NUCLEO_F401RE
+mbed_os_supp_nucleo_f401re.build.mcu=-m NUCLEO_F401RE
+mbed_os_supp_nucleo_f401re.upload.tool=openocd
+mbed_os_supp_nucleo_f401re.debug.tool=gdb
+
+mbed_os_supp_nucleo_f410rb.name=NUCLEO_F410RB
+mbed_os_supp_nucleo_f410rb.build.mcu=-m NUCLEO_F410RB
+mbed_os_supp_nucleo_f410rb.upload.tool=openocd
+mbed_os_supp_nucleo_f410rb.debug.tool=gdb
+
+mbed_os_supp_nucleo_f411re.name=NUCLEO_F411RE
+mbed_os_supp_nucleo_f411re.build.mcu=-m NUCLEO_F411RE
+mbed_os_supp_nucleo_f411re.upload.tool=openocd
+mbed_os_supp_nucleo_f411re.debug.tool=gdb
+
+mbed_os_supp_nucleo_f429zi.name=NUCLEO_F429ZI
+mbed_os_supp_nucleo_f429zi.build.mcu=-m NUCLEO_F429ZI
+mbed_os_supp_nucleo_f429zi.upload.tool=openocd
+mbed_os_supp_nucleo_f429zi.debug.tool=gdb
+
+mbed_os_supp_nucleo_f439zi.name=NUCLEO_F439ZI
+mbed_os_supp_nucleo_f439zi.build.mcu=-m NUCLEO_F439ZI
+mbed_os_supp_nucleo_f439zi.upload.tool=openocd
+mbed_os_supp_nucleo_f439zi.debug.tool=gdb
+
+mbed_os_supp_nucleo_f446re.name=NUCLEO_F446RE
+mbed_os_supp_nucleo_f446re.build.mcu=-m NUCLEO_F446RE
+mbed_os_supp_nucleo_f446re.upload.tool=openocd
+mbed_os_supp_nucleo_f446re.debug.tool=gdb
+
+mbed_os_supp_nucleo_f446ze.name=NUCLEO_F446ZE
+mbed_os_supp_nucleo_f446ze.build.mcu=-m NUCLEO_F446ZE
+mbed_os_supp_nucleo_f446ze.upload.tool=openocd
+mbed_os_supp_nucleo_f446ze.debug.tool=gdb
+
+mbed_os_supp_nucleo_f746zg.name=NUCLEO_F746ZG
+mbed_os_supp_nucleo_f746zg.build.mcu=-m NUCLEO_F746ZG
+mbed_os_supp_nucleo_f746zg.upload.tool=openocd
+mbed_os_supp_nucleo_f746zg.debug.tool=gdb
+
+mbed_os_supp_nucleo_f756zg.name=NUCLEO_F756ZG
+mbed_os_supp_nucleo_f756zg.build.mcu=-m NUCLEO_F756ZG
+mbed_os_supp_nucleo_f756zg.upload.tool=openocd
+mbed_os_supp_nucleo_f756zg.debug.tool=gdb
+
+mbed_os_supp_nucleo_f767zi.name=NUCLEO_F767ZI
+mbed_os_supp_nucleo_f767zi.build.mcu=-m NUCLEO_F767ZI
+mbed_os_supp_nucleo_f767zi.upload.tool=openocd
+mbed_os_supp_nucleo_f767zi.debug.tool=gdb
+
+mbed_os_supp_nucleo_l073rz.name=NUCLEO_L073RZ
+mbed_os_supp_nucleo_l073rz.build.mcu=-m NUCLEO_L073RZ
+mbed_os_supp_nucleo_l073rz.upload.tool=openocd
+mbed_os_supp_nucleo_l073rz.debug.tool=gdb
+
+mbed_os_supp_nucleo_l152re.name=NUCLEO_L152RE
+mbed_os_supp_nucleo_l152re.build.mcu=-m NUCLEO_L152RE
+mbed_os_supp_nucleo_l152re.upload.tool=openocd
+mbed_os_supp_nucleo_l152re.debug.tool=gdb
+
+mbed_os_supp_nucleo_l432kc.name=NUCLEO_L432KC
+mbed_os_supp_nucleo_l432kc.build.mcu=-m NUCLEO_L432KC
+mbed_os_supp_nucleo_l432kc.upload.tool=openocd
+mbed_os_supp_nucleo_l432kc.debug.tool=gdb
+
+mbed_os_supp_nucleo_l476rg.name=NUCLEO_L476RG
+mbed_os_supp_nucleo_l476rg.build.mcu=-m NUCLEO_L476RG
+mbed_os_supp_nucleo_l476rg.upload.tool=openocd
+mbed_os_supp_nucleo_l476rg.debug.tool=gdb
+
+mbed_os_supp_nucleo_l486rg.name=NUCLEO_L486RG
+mbed_os_supp_nucleo_l486rg.build.mcu=-m NUCLEO_L486RG
+mbed_os_supp_nucleo_l486rg.upload.tool=openocd
+mbed_os_supp_nucleo_l486rg.debug.tool=gdb
+
+mbed_os_supp_numaker_pfm_m453.name=NUMAKER_PFM_M453
+mbed_os_supp_numaker_pfm_m453.build.mcu=-m NUMAKER_PFM_M453
+mbed_os_supp_numaker_pfm_m453.upload.tool=openocd
+mbed_os_supp_numaker_pfm_m453.debug.tool=gdb
+
+mbed_os_supp_numaker_pfm_nuc472.name=NUMAKER_PFM_NUC472
+mbed_os_supp_numaker_pfm_nuc472.build.mcu=-m NUMAKER_PFM_NUC472
+mbed_os_supp_numaker_pfm_nuc472.upload.tool=openocd
+mbed_os_supp_numaker_pfm_nuc472.debug.tool=gdb
+
+mbed_os_supp_rz_a1h.name=RZ_A1H
+mbed_os_supp_rz_a1h.build.mcu=-m RZ_A1H
+mbed_os_supp_rz_a1h.upload.tool=openocd
+mbed_os_supp_rz_a1h.debug.tool=gdb
+
+mbed_os_supp_sara_nbiot_evk.name=SARA_NBIOT_EVK
+mbed_os_supp_sara_nbiot_evk.build.mcu=-m SARA_NBIOT_EVK
+mbed_os_supp_sara_nbiot_evk.upload.tool=openocd
+mbed_os_supp_sara_nbiot_evk.debug.tool=gdb
+
+mbed_os_supp_ty51822r3.name=TY51822R3
+mbed_os_supp_ty51822r3.build.mcu=-m TY51822R3
+mbed_os_supp_ty51822r3.upload.tool=openocd
+mbed_os_supp_ty51822r3.debug.tool=gdb
+
+mbed_os_supp_ublox_c027.name=UBLOX_C027
+mbed_os_supp_ublox_c027.build.mcu=-m UBLOX_C027
+mbed_os_supp_ublox_c027.upload.tool=openocd
+mbed_os_supp_ublox_c027.debug.tool=gdb
+
+mbed_os_supp_ublox_evk_odin_w2.name=UBLOX_EVK_ODIN_W2
+mbed_os_supp_ublox_evk_odin_w2.build.mcu=-m UBLOX_EVK_ODIN_W2
+mbed_os_supp_ublox_evk_odin_w2.upload.tool=openocd
+mbed_os_supp_ublox_evk_odin_w2.debug.tool=gdb
+
+mbed_os_supp_vk_rz_a1h.name=VK_RZ_A1H
+mbed_os_supp_vk_rz_a1h.build.mcu=-m VK_RZ_A1H
+mbed_os_supp_vk_rz_a1h.upload.tool=openocd
+mbed_os_supp_vk_rz_a1h.debug.tool=gdb
+
+mbed_os_supp_xdot_l151cc.name=XDOT_L151CC
+mbed_os_supp_xdot_l151cc.build.mcu=-m XDOT_L151CC
+mbed_os_supp_xdot_l151cc.upload.tool=openocd
+mbed_os_supp_xdot_l151cc.debug.tool=gdb
+

@@ -13,10 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="configs">
+      <UniqueIdentifier>{6575ebd5-0a9f-4350-84f9-833fb9846c93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="BlinkyTest1.ino" />
     <None Include="mbed_settings.py" />
+    <None Include="configs\gdb.cfg">
+      <Filter>configs</Filter>
+    </None>
+    <None Include="configs\upload.cfg">
+      <Filter>configs</Filter>
+    </None>
+    <None Include="configs\appconfig.json">
+      <Filter>configs</Filter>
+    </None>
+    <None Include="configs\Readme.md">
+      <Filter>configs</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.BlinkyTest1.vsarduino.h">
